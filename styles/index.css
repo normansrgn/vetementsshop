@@ -74,3 +74,16 @@ main {
     font-size: 50px;
     font-weight: bold;
 }
+
+.card_name {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 444px;
+    border-radius: 52px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
