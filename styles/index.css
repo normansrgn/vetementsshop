@@ -81,9 +81,52 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 444px;
+    width: 428px;
     border-radius: 52px;
     background-color: black;
     color: white;
     font-size: 32px;
+}
+
+.card_price_item {
+    width: 220px;
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    border-radius: 52px;
+    padding: 10px;
+
+}
+
+.price_and_name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card_price {
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+.vetments_cards {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.vetments_card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.vetm_cards_flex {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
