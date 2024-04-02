@@ -126,7 +126,23 @@ main {
 
 .vetm_cards_flex {
     margin-top: 120px;
+    margin-bottom: 200px;
     display: flex;
     flex-direction: column;
     gap: 100px;
+}
+
+.footer {
+    background-image: url(../index_images/header_bgk.svg);
+    width: 100%;
+
+}
+
+.promo_lables {
+    margin-top: 15px;
+}
+
+.label_item {
+    font-size: 36px;
+    font-weight: bold;
 }
