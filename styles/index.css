@@ -15,6 +15,11 @@ main {
     flex-grow: 1;
 }
 
+.url {
+    text-decoration: none;
+    color: white;
+}
+
 .header {
     /* background-size: 100%; */
     /* background-repeat: no-repeat; */
@@ -23,6 +28,24 @@ main {
 
 }
 
+.nav_bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+.nav_bar_list {
+    display: flex;
+    gap: 70px;
+
+}
+.nav_bar_item {
+    font-size: 15px;
+}
 .main {
     background-image: url(../index_images/main_bgk.svg);
     background-position: 0%;
