@@ -122,7 +122,16 @@ main {
     justify-content: center;
     border-radius: 52px;
     padding: 10px;
+    transition: 0.1s linear;
 
+}
+
+.card_price_item:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.1s linear;
 }
 
 .price_and_name {
