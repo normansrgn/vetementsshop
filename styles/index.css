@@ -17,6 +17,7 @@ main {
     flex-grow: 1;
 }
 
+
 .url {
     text-decoration: none;
     color: white;
@@ -148,10 +149,22 @@ main {
     gap: 2px;
 }
 
+
+
 .vetments_cards {
     justify-content: center;
     display: flex;
     gap: 30px;
+}
+
+.active {
+    background-color: black;;
+    color: white;
+    display: block;
+}
+
+.hide_catalog {
+    display: none;
 }
 
 .vetments_card {
@@ -161,7 +174,7 @@ main {
 }
 
 .vetm_cards_flex {
-    margin-top: 120px;
+    margin-top: 90px;
     margin-bottom: 200px;
     display: flex;
     flex-direction: column;
