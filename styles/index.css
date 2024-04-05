@@ -47,7 +47,7 @@ main {
 
 }
 .nav_bar_item {
-    font-size: 15px;
+    font-size: 25px;
 }
 .main {
     background-image: url(../index_images/main_bgk.svg);
@@ -157,6 +157,8 @@ main {
     gap: 30px;
 }
 
+
+
 .active {
     background-color: black;;
     color: white;
@@ -168,6 +170,7 @@ main {
 }
 
 .vetments_card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 5px
@@ -203,6 +206,13 @@ main {
     }
 }
 
+@media (max-width: 1200px) {
+    .catalog_filt_btns {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
 @media (max-width: 776px) {
     .logo_secy {
         flex-direction: column;
@@ -229,6 +239,7 @@ main {
 
 
 }
+
 
 @media (max-width: 624px) {
     .timer {
