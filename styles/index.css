@@ -63,6 +63,7 @@ main {
     background-color: white;
     border: 1px solid;
 }
+
 .timer_sect {
     display: flex;
     justify-content: center;
@@ -112,6 +113,7 @@ main {
     justify-content: space-between;
     gap: 2px;
 }
+
 .vetments_cards {
     justify-content: center;
     display: flex;
@@ -145,4 +147,44 @@ main {
 .label_item {
     font-size: 36px;
     font-weight: bold;
+}
+
+
+@media (max-width: 1424px) {
+    .vetments_cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 776px) {
+    .logo_secy {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .tittle {
+        font-size: 84px;
+    }
+
+    .logo_discrip {
+        font-size: 32px;
+    }
+
+
+
+}
+
+@media (max-width: 624px) {
+    .timer {
+        width: 450px;
+    }
 }
