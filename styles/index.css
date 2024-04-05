@@ -1,5 +1,6 @@
 @import url(./bootstrap-grid.css);
 @import url(./reset.css);
+@import url(./catalog.css);
 
 html {
     scroll-behavior: smooth;
