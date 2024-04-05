@@ -1,6 +1,7 @@
 @import url(./bootstrap-grid.css);
 @import url(./reset.css);
 @import url(./catalog.css);
+@import url(./basket.css);
 
 html {
     scroll-behavior: smooth;
@@ -36,7 +37,7 @@ main {
     align-items: center;
     background-color: black;
     color: white;
-    padding: 8px;
+    padding: 8px 0px;
 }
 
 .nav_bar_list {
