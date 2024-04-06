@@ -157,6 +157,10 @@ main {
     gap: 30px;
 }
 
+.hide {
+    display:none;
+}
+
 
 
 .active {

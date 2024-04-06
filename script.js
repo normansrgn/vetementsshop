@@ -7,11 +7,11 @@ function filter() {
     list.addEventListener('click', event => {
         const targetId = event.target.dataset.id
         // console.log(targetId)
-        const target = event.target 
+        const target = event.target
 
         listitems.forEach(listitems => listitems.classList.remove('active'))
         target.classList.add('active')
-       
+
         switch (targetId) {
             case 'hoodie':
                 items.forEach(item => {
@@ -23,7 +23,7 @@ function filter() {
                 })
                 break
 
-                case 'pants':
+            case 'pants':
                 items.forEach(item => {
                     if (item.classList.contains('pants')) {
                         item.style.display = 'flex'
@@ -33,7 +33,7 @@ function filter() {
                 })
                 break
 
-                case 'boots':
+            case 'boots':
                 items.forEach(item => {
                     if (item.classList.contains('boots')) {
                         item.style.display = 'flex'
@@ -50,3 +50,25 @@ function filter() {
 
 }
 filter()
+
+
+//ПОИСК ТОВАРОВ//
+
+window.onload = () => {
+    let input = document.querySelector('#input')
+    input.oninput = function () {
+        let value = this.value.trim();
+        let cardlist = document.querySelectorAll('.vetments_cards div');
+        console.log(cardlist);
+
+        if(value != '') {
+            cardlist.forEach(elem => {
+                if(elem.innerText.search(value) == -1 ) {
+                    elem.classList.add('hide');
+                }
+            })
+        }
+
+        console.log(this.value);
+    }
+};
