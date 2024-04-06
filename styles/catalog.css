@@ -47,6 +47,26 @@
     transition: 0.1s linear;
 
 }
+
+@media (max-width: 593px) {
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+        width: 94%;
+    }
+}
+
+@media (max-width: 505px) {
+    .nav_bar_list {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .nav_bar_item {
+        font-size: 30px;
+    }
+
+}
+
     
 
 

@@ -250,3 +250,16 @@ main {
         width: 450px;
     }
 }
+
+@media (max-width: 505px) {
+    .nav_bar_list {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .nav_bar_item {
+        font-size: 30px;
+    }
+
+}
