@@ -1,3 +1,5 @@
+// CATALOG FILTER //
+
 const list = document.querySelector('.catalog_filt_btns')
 items = document.querySelectorAll('.vetments_cards')
 listitems = document.querySelectorAll('.catalog_btn')
@@ -43,11 +45,7 @@ function filter() {
                 })
                 break
         }
-
-
     })
-
-
 }
 filter()
 
