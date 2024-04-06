@@ -54,21 +54,21 @@ filter()
 
 //ПОИСК ТОВАРОВ//
 
-window.onload = () => {
-    let input = document.querySelector('#input')
-    input.oninput = function () {
-        let value = this.value.trim();
-        let cardlist = document.querySelectorAll('.vetments_cards div');
-        console.log(cardlist);
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('input');
+    const cards = document.querySelectorAll('.vetments_card');
 
-        if(value != '') {
-            cardlist.forEach(elem => {
-                if(elem.innerText.search(value) == -1 ) {
-                    elem.classList.add('hide');
-                }
-            })
-        }
+    searchInput.addEventListener('input', function (event) {
+        const searchText = event.target.value.trim().toLowerCase();
 
-        console.log(this.value);
-    }
-};
+        cards.forEach(function (card) {
+            const cardName = card.querySelector('.name_card').textContent.toLowerCase();
+            const cardVisible = card.style.display !== 'none'; // Проверяем, отображается ли карточка
+            if (cardName.includes(searchText) && !cardVisible) {
+                card.style.display = 'flex';
+            } else if (!cardName.includes(searchText) && cardVisible) {
+                card.style.display = 'none';
+            }
+        });
+    });
+});
