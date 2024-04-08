@@ -1,7 +1,7 @@
 .abut_tittle {
     font-size: 50px;
     color: black;
-    width: 1300px;
+    /* width: 100px; */
     text-align: center;
     font-weight: bold;
     margin-top: 180px;
@@ -21,11 +21,10 @@
 
 .about_image_block {
     width: 100px;
-    width: 1400px;
+    width: 1000px;
     display: flex;
     align-self: center;
     justify-content: center;
-
 }
 
 .about_image {
@@ -58,4 +57,25 @@
     margin-top: 363px;
     height: 634px;
     width: 555px;
-    }
+}
+
+.about_discrip {
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    width: 864px;
+    text-align: center;
+}
+
+.disc {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 270px;
+}
+
+.absab {
+    margin-top: 130px;
+
+}
+
