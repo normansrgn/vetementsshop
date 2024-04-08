@@ -2,6 +2,7 @@
 @import url(./reset.css);
 @import url(./catalog.css);
 @import url(./basket.css);
+@import url(./about_us.css);
 
 html {
     scroll-behavior: smooth;

@@ -1,0 +1,28 @@
+.abut_tittle {
+    font-size: 40px;
+    color: black;
+    width: 1300px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+
+.about_image_utem {
+    width: 100%;
+    display: block;
+}
+
+.about_image_utem_medium {
+    width: 15%;
+
+}
+
+.about_image_block {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.about_image {
+    display: block;
+}
