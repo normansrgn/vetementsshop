@@ -1,5 +1,5 @@
 .abut_tittle {
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     /* width: 100px; */
     text-align: center;
@@ -20,6 +20,7 @@
 }
 
 .about_flex {
+    flex-wrap: wrap;
     justify-content: center;
         display: flex;
         align-items: center;
@@ -29,7 +30,7 @@
 
 .about_discrip {
     display: block;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: bold;
     width: 864px;
     text-align: center;
@@ -45,5 +46,18 @@
 .absab {
     margin-top: 130px;
 
+}
+
+
+@media (max-width: 976px) {
+    .abut_tittle {
+        text-align: start;
+        font-size: 30px;
+    }
+
+    .about_discrip {
+        text-align: start;
+        font-size: 20px;
+    }
 }
 

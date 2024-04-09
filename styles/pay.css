@@ -1,0 +1,80 @@
+.email {
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addres_inputs {
+    display: flex;
+   gap: 10px;
+}
+
+.email_inp{
+    padding: 9px;
+    padding-left: 10px;
+    width: 96%;
+}
+
+.email label {
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.email_inp::placeholder {
+    font-size: 20px;
+
+}
+
+.adresinp {
+
+}
+
+.addres {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.pay_options {
+    padding: 10px;
+    width: 160px;
+}
+
+.adrresplchold {
+    padding: 9px;
+    padding-left: 10px;
+    width: 270px;
+}
+
+.adrresplchold::placeholder {
+    font-size: 20px;
+
+}
+
+.number {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.city {
+    padding: 9px;
+    /* width: 100%; */
+}
+
+.city::placeholder {
+    font-size: 20px;
+
+}
+
+.main_number {
+    display: flex;
+    gap: 5px;
+
+}
+
+.main_number input {
+    width: 100%;
+}

@@ -3,6 +3,7 @@
 @import url(./catalog.css);
 @import url(./basket.css);
 @import url(./about_us.css);
+@import url(./pay.css);
 
 html {
     scroll-behavior: smooth;
