@@ -78,3 +78,8 @@
 .main_number input {
     width: 100%;
 }
+
+.form_flex {
+    display: flex;
+    justify-content: center;
+}
