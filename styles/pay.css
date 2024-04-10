@@ -7,10 +7,10 @@
 
 .addres_inputs {
     display: flex;
-   gap: 10px;
+    gap: 10px;
 }
 
-.email_inp{
+.email_inp {
     padding: 9px;
     padding-left: 10px;
     width: 96%;
@@ -27,9 +27,7 @@
 
 }
 
-.adresinp {
-
-}
+.adresinp {}
 
 .addres {
     display: flex;
@@ -81,5 +79,29 @@
 
 .form_flex {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ticket {
+    margin-top: 90px;
+    width: 61%;
+;
+}
+
+.card_inp {
+    width: 40%;
+    padding: 10px;
+}
+
+.ticketinp {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.cardin {
+    width: 17.3%;
 }
