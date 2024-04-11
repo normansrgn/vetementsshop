@@ -80,6 +80,56 @@
 }
 
 .form_flex {
+    align-items: center;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+}
+
+.ticket {
+    margin-top: 60px;
+    width: 300px;
+}
+
+.ticketinp {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_inp {
+    width: 121px;
+    padding: 10px;
+}
+
+.visacard {
+    margin-right: 291px;
+    text-align: start;
+    width: 300px;
+  
+    margin-top: 10px;
+}
+
+.pay_funct {
+    display: flex;
+    flex-direction: column;
+}
+
+.paybtn {
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 3px solid black;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+.paybtn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
 }
