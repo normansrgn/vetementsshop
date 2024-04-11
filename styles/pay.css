@@ -69,6 +69,10 @@
 
 }
 
+.card_inp::placeholder {
+    font-size: 17px;
+}
+
 .main_number {
     display: flex;
     gap: 5px;
