@@ -38,7 +38,32 @@
 .basket_items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+}
+
+.basket_tittle {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.basket_tittle:hover {
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+.basket_tittle button {
+    font-size: 30px;
+    background: none;
+    border: none;
 }
 
 @media (max-width: 999px) {
