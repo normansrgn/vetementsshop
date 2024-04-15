@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="name_tem">${item.style}</div>
             </div>
             <div class="card_price">
-                <div class="card_price_item">${item.price}$</div>
+                <div class="card_price_item">${item.price}</div>
             </div>
         `;
 

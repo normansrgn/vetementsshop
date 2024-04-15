@@ -166,6 +166,15 @@ main {
     gap: 30px;
 }
 
+.card_pic {
+    display: flex;
+    justify-content: center;
+}
+
+.card_pic img {
+    width: 96%;
+}
+
 .hide {
     display:none;
 }
