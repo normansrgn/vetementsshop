@@ -1,5 +1,5 @@
 .email {
-    width: 590px;
+    /* width: 590px; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -7,10 +7,10 @@
 
 .addres_inputs {
     display: flex;
-   gap: 10px;
+    gap: 10px;
 }
 
-.email_inp{
+.email_inp {
     padding: 9px;
     padding-left: 10px;
     width: 96%;
@@ -27,9 +27,7 @@
 
 }
 
-.adresinp {
-
-}
+.adresinp {}
 
 .addres {
     display: flex;
@@ -84,6 +82,8 @@
 }
 
 .form_flex {
+    margin-top: 50px;
+    margin-bottom: 50px;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -108,10 +108,9 @@
 }
 
 .visacard {
-    margin-right: 291px;
+    margin-right: 322px;
     text-align: start;
     width: 300px;
-  
     margin-top: 10px;
 }
 
@@ -136,4 +135,40 @@
     background-color: black;
     color: white;
     transition: 0.3s ease;
+}
+
+@media (max-width:656px) {
+    .email_inp {
+        width: 93%;
+    }
+
+    .addres_inputs {
+        flex-direction: column;
+    }
+
+    .number {
+        flex-direction: column;
+    }
+
+    .adrresplchold {
+        width: 137px;
+
+
+    }
+
+    .city {
+        width: 139px;
+    }
+
+    .main_number {
+        flex-direction: column;
+    }
+    
+    .main_number input {
+        width: 93%;
+ }
+
+ .visacard {
+    margin-right: 0px;
+ } 
 }
